@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Токен Telegram-бота
-TELEGRAM_BOT_TOKEN = "7640917190:AAHcxk306R7EQHSsJaPRwTY-HPghf1OAoOY"  # Замените на ваш токен
+TELEGRAM_BOT_TOKEN = ""  # Замените на ваш токен
 
 # Загружаем модель (выбираем Mistral-7B для примера)
 model_name = "TheBloke/Mistral-7B-Instruct-v0.1-GGUF"  # Модель Mistral для диалогов
